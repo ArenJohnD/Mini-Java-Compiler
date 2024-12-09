@@ -71,7 +71,7 @@ Below are different scenarios illustrating various stages of code validation:
 This scenario demonstrates code that is accepted at the lexical level (tokens are recognized), but fails during syntax validation.
 
 ```plaintext
-int x 5;  // Syntax error: missing assignment operator```
+int x 5;  // Syntax error: missing assignment operator
 ```
 
   * Lexical Analysis: The tokens int, x, and 5 are recognized correctly.
