@@ -104,7 +104,7 @@ Contributions are welcome! If you'd like to contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature/fix:
-```plaintext
+  ```plaintext
   git checkout -b feature-name
-```
+  ```
 3. Commit your changes and open a pull request.
