@@ -33,23 +33,14 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
 1. Launch the application and select Start on the welcome screen.
 2. Use the editor to write or load Java code.
 3. Perform analyses:
-  * Lexical Analysis: Identifies tokens and highlights unknown tokens.
-  * Syntax Analysis: Validates the code structure.
-  * Semantic Analysis: Ensures type compatibility and detects semantic errors.
+  - Lexical Analysis: Identifies tokens and highlights unknown tokens.
+  - Syntax Analysis: Validates the code structure.
+  - Semantic Analysis: Ensures type compatibility and detects semantic errors.
 4. Click Run to execute all analyses sequentially.
 
 ## Folder Structure
 
-mini-java-compiler/
-├── src/                           # Source code
-│   ├── minicompiler/
-│   │   ├── actions/               # Action handlers (lexical, syntax, semantic analysis)
-│   │   ├── common/                # Shared classes (e.g., Token)
-│   │   ├── main/                  # Application entry point
-│   │   └── ui/                    # User interface components
-├── bin/                           # Compiled class files
-├── README.md                      # Project documentation
-└── assets/                        # Images for documentation (optional)
+mini-java-compiler/ ├── src/ # Source code │ ├── minicompiler/ │ │ ├── actions/ # Action handlers (lexical, syntax, semantic analysis) │ │ ├── common/ # Shared classes (e.g., Token) │ │ ├── main/ # Application entry point │ │ └── ui/ # User interface components ├── bin/ # Compiled class files ├── README.md # Project documentation └── assets/ # Images for documentation (optional)
 
 ## Development
 
@@ -72,4 +63,4 @@ Contributions are welcome! If you'd like to contribute:
 2. Create a new branch for your feature/fix:
    ```bash
    git checkout -b feature-name
-4. Commit your changes and open a pull request.
+3. Commit your changes and open a pull request.
