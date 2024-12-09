@@ -24,6 +24,7 @@ mini-java-compiler/
 │   ├── main/                  # Application entry point
 │   └── ui/                    # User interface components                 
 └── README.md             # Project documentation
+```plaintext
 
 ## Installation
 
