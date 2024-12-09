@@ -41,6 +41,25 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
 ## Folder Structure
 
 
+## Description
+
+This project is a Mini Java Compiler designed to perform lexical, syntax, and semantic analysis on Java code. The project includes a graphical user interface to interact with the compiler.
+
+### src/
+- **minicompiler/actions/**: Contains the action handlers for various stages of compilation such as lexical, syntax, and semantic analysis.
+- **minicompiler/common/**: Contains shared classes and utilities used across the project, like the `Token` class.
+- **minicompiler/main/**: The main entry point of the application.
+- **minicompiler/ui/**: User interface components for the compiler application.
+
+### bin/
+- Contains the compiled class files generated from the source code.
+
+### README.md
+- This file, containing project documentation and information.
+
+### assets/
+- Contains images or other assets used in the documentation (optional).
+
 
 ## Development
 
