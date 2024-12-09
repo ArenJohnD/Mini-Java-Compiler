@@ -63,7 +63,7 @@ Mini-Java-Compiler/
   * `EditorPage`: The main user interface.
   * `FileLoader`: Handles file import operations.
 
-## Scenarios
+## Validation Scenarios
 
 Below are different scenarios illustrating various stages of code validation:
 
