@@ -1,6 +1,6 @@
-package minicompiler.actions;
+package actions;
 
-import minicompiler.ui.EditorPage;
+import ui.EditorPage;
 
 public class CodeRunner {
 

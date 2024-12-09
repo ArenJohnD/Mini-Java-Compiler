@@ -1,4 +1,4 @@
-package minicompiler.common;
+package common;
 
 public class Token {
     private String type;

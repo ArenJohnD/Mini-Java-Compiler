@@ -1,4 +1,4 @@
-package minicompiler.ui;
+package ui;
 
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import javax.swing.*;
 import javax.swing.undo.UndoManager;
 
-import minicompiler.actions.*;
+import actions.*;
 
 public class EditorPage extends JFrame {
     private JTextArea codeTextArea;

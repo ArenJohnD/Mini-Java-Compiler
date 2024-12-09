@@ -1,4 +1,4 @@
-package minicompiler.actions;
+package actions;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 
 import javax.swing.JFileChooser;
 
-import minicompiler.ui.EditorPage;
+import ui.EditorPage;
 
 public class FileLoader {
 

@@ -1,4 +1,4 @@
-package minicompiler.actions;
+package actions;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

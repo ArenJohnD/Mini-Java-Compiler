@@ -1,8 +1,8 @@
-package minicompiler.main;
+package main;
 
 import javax.swing.SwingUtilities;
 
-import minicompiler.ui.WelcomePage;
+import ui.WelcomePage;
 
 public class MiniJavaCompiler {
 
