@@ -28,27 +28,27 @@ Mini-Java-Compiler/
 
 ## Installation
 
-1. Ensure you have Java Development Kit (JDK) installed (version 8 or higher).
-2. Clone the repository:
+**1.** Ensure you have Java Development Kit (JDK) installed (version 8 or higher).
+**2.** Clone the repository:
    ```bash
    git clone https://github.com/yourusername/minijavacompiler.git
    cd minijavacompiler   
-3. Compile the project:
+**3.** Compile the project:
    ```bash
    javac -d bin -sourcepath src src/minicompiler/main/MiniJavaCompiler.java
-4. Run the application:
+**4.** Run the application:
    ```bash
    java -cp bin minicompiler.main.MiniJavaCompiler
 
 ## How to Use
 
-1. Launch the application and select Start on the welcome screen.
-2. Use the editor to write or load Java code.
-3. Perform analyses:
+**1.** Launch the application and select Start on the welcome screen.
+**2.** Use the editor to write or load Java code.
+**3.** Perform analyses:
    - `Lexical Analysis`: Identifies tokens and highlights unknown tokens.
    - `Syntax Analysis`: Validates the code structure.
    - `Semantic Analysis`: Ensures type compatibility and detects semantic errors.
-4. Click Run to execute all analyses sequentially.
+**4.** Click Run to execute all analyses sequentially.
 
 ## Development
 
@@ -102,8 +102,8 @@ int x = 5 @ 10;  // Lexical error: invalid character '@'
 
 Contributions are welcome! If you'd like to contribute:
 
-1. Fork the repository.
-2. Create a new branch for your feature/fix:
+**1.** Fork the repository.
+**2.** Create a new branch for your feature/fix:
    ```bash
    git checkout -b feature-name
-3. Commit your changes and open a pull request.
+**3.** Commit your changes and open a pull request.
