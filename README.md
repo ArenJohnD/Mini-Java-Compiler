@@ -106,4 +106,5 @@ Contributions are welcome! If you'd like to contribute:
 2. Create a new branch for your feature/fix:
   ```bash
   git checkout -b feature-name
+
 3. Commit your changes and open a pull request.
