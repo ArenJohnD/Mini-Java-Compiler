@@ -33,9 +33,9 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
 1. Launch the application and select Start on the welcome screen.
 2. Use the editor to write or load Java code.
 3. Perform analyses:
-   - Lexical Analysis: Identifies tokens and highlights unknown tokens.
-   - Syntax Analysis: Validates the code structure.
-   - Semantic Analysis: Ensures type compatibility and detects semantic errors.
+   - `Lexical Analysis`: Identifies tokens and highlights unknown tokens.
+   - `Syntax Analysis`: Validates the code structure.
+   - `Semantic Analysis`: Ensures type compatibility and detects semantic errors.
 4. Click Run to execute all analyses sequentially.
 
 ## Development
