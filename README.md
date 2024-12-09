@@ -2,8 +2,6 @@
 
 The **Mini Java Compiler** is a lightweight Java application designed to analyze, compile, and simulate the execution of basic Java code. It provides an integrated graphical user interface (GUI) for writing, analyzing, and understanding Java code.
 
----
-
 ## Features
 
 - **Lexical Analysis**: Tokenizes the source code and identifies unknown tokens.
@@ -15,14 +13,6 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
   - Analysis results displayed in a separate panel.
 - **File Handling**: Open and edit `.java` files directly.
 - **Zoom Controls**: Adjust the font size dynamically for accessibility.
-
----
-
-## Screenshots
-
-*(Add relevant screenshots of the app here, e.g., the editor interface, analysis results.)*
-
----
 
 ## Installation
 
@@ -50,8 +40,6 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
   * Semantic Analysis: Ensures type compatibility and detects semantic errors.
 4. Click Run to execute all analyses sequentially.
 
----
-
 ## Folder Structure
 
 mini-java-compiler/
@@ -64,8 +52,6 @@ mini-java-compiler/
 ├── bin/                           # Compiled class files
 ├── README.md                      # Project documentation
 └── assets/                        # Images for documentation (optional)
-
----
 
 ## Development
 
