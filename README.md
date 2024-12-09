@@ -70,7 +70,7 @@ Below are different scenarios illustrating various stages of code validation:
 ### Scenario A: Valid Lexical Tokens, but Syntax Error
 This scenario demonstrates code that is accepted at the lexical level (tokens are recognized), but fails during syntax validation.
 
-int x 5;  // Syntax error: missing assignment operator
+```int x 5;  // Syntax error: missing assignment operator```
 
   * Lexical Analysis: The tokens int, x, and 5 are recognized correctly.
   * Syntax: The code fails because the assignment operator = is missing between the variable and value.
