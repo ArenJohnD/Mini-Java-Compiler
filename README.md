@@ -28,8 +28,6 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
    ```bash
    java -cp bin minicompiler.main.MiniJavaCompiler
 
----
-
 ## How to Use
 
 1. Launch the application and select Start on the welcome screen.
@@ -65,8 +63,6 @@ mini-java-compiler/
   * `SemanticAnalyzer`: Checks type compatibility and validates logic.
   * `EditorPage`: The main user interface.
   * `FileLoader`: Handles file import operations.
-
----
 
 ## Contributions
 
