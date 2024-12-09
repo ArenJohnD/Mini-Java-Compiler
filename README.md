@@ -74,8 +74,8 @@ This scenario demonstrates code that is accepted at the lexical level (tokens ar
 int x 5;  // Syntax error: missing assignment operator
 ```
 
-  * Lexical Analysis: The tokens int, x, and 5 are recognized correctly.
-  * Syntax: The code fails because the assignment operator = is missing between the variable and value.
+  * `Lexical Analysis`: The tokens int, x, and 5 are recognized correctly.
+  * `Syntax Analysis`: The code fails because the assignment operator = is missing between the variable and value.
 
 ### Scenario B: Valid Lexical and Syntax, but Semantic Error
 This scenario demonstrates code that passes lexical and syntax validation but fails during semantic analysis due to logical errors or type mismatches.
@@ -84,9 +84,9 @@ This scenario demonstrates code that passes lexical and syntax validation but fa
 int variable = 1.34;  // Semantic error: incompatible types (float assigned to int)
 ```
 
-  * Lexical Analysis: The tokens int, variable, and 1.34 are recognized correctly.
-  * Syntax: The structure of the code is correct.
-  * Semantics: The code fails because 1.34 is a floating-point number, which cannot be assigned to an integer variable.
+  * `Lexical Analysis`: The tokens int, variable, and 1.34 are recognized correctly.
+  * `Syntax Analysis`: The structure of the code is correct.
+  * `Semantic Analysis`: The code fails because 1.34 is a floating-point number, which cannot be assigned to an integer variable.
 
 ### Scenario C: Lexical Failure Due to Unknow Token(s)
 This scenario shows code that fails during the lexical analysis phase due to unrecognized or invalid characters.
@@ -95,8 +95,8 @@ This scenario shows code that fails during the lexical analysis phase due to unr
 int x = 5 @ 10;  // Lexical error: invalid character '@'
 ```
 
-  * Lexical Analysis: The code fails immediately because the character @ is not a valid token in this context.
-  * Syntax and Semantics: These stages are not reached due to the failure during lexical analysis.
+  * `Lexical Analysis`: The code fails immediately because the character @ is not a valid token in this context.
+  * `Syntax and Semantic Analysis`: These stages are not reached due to the failure during lexical analysis.
 
 ## Contributions
 
