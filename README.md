@@ -16,8 +16,9 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
 
 ## Folder Structure
 
+```plaintext
 mini-java-compiler/
-```├── src/```                  # Source code
+├── src/                  # Source code
 │   ├── actions/               # Action handlers (lexical, syntax, semantic analysis)
 │   ├── common/                # Shared classes (e.g., Token)
 │   ├── main/                  # Application entry point
