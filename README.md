@@ -71,7 +71,7 @@ Below are different scenarios illustrating various stages of code validation:
 This scenario demonstrates code that is accepted at the lexical level (tokens are recognized), but fails during syntax validation.
 
 ```plaintext
-   int x 5;  // Syntax error: missing assignment operator```
+int x 5;  // Syntax error: missing assignment operator```
 ```
 
   * Lexical Analysis: The tokens int, x, and 5 are recognized correctly.
@@ -81,7 +81,7 @@ This scenario demonstrates code that is accepted at the lexical level (tokens ar
 This scenario demonstrates code that passes lexical and syntax validation but fails during semantic analysis due to logical errors or type mismatches.
 
 ```plaintext
-   int variable = 1.34;  // Semantic error: incompatible types (float assigned to int)
+int variable = 1.34;  // Semantic error: incompatible types (float assigned to int)
 ```
 
   * Lexical Analysis: The tokens int, variable, and 1.34 are recognized correctly.
@@ -92,7 +92,7 @@ This scenario demonstrates code that passes lexical and syntax validation but fa
 This scenario shows code that fails during the lexical analysis phase due to unrecognized or invalid characters.
 
 ```plaintext
-   int x = 5 @ 10;  // Lexical error: invalid character '@'
+int x = 5 @ 10;  // Lexical error: invalid character '@'
 ```
 
   * Lexical Analysis: The code fails immediately because the character @ is not a valid token in this context.
