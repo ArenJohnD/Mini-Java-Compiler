@@ -14,6 +14,16 @@ The **Mini Java Compiler** is a lightweight Java application designed to analyze
 - **File Handling**: Open and edit `.java` files directly.
 - **Zoom Controls**: Adjust the font size dynamically for accessibility.
 
+## Folder Structure
+
+mini-java-compiler/
+├── src/                  # Source code
+│   ├── actions/               # Action handlers (lexical, syntax, semantic analysis)
+│   ├── common/                # Shared classes (e.g., Token)
+│   ├── main/                  # Application entry point
+│   └── ui/                    # User interface components                 
+└── README.md             # Project documentation
+
 ## Installation
 
 1. Ensure you have Java Development Kit (JDK) installed (version 8 or higher).
